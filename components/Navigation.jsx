@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Container from "./shared/Container";
-import logo from "@/assets/logo2.svg";
+import logo from "@/assets/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 // import Button from "./shared/Button";
