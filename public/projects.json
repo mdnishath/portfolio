@@ -1,0 +1,66 @@
+[
+  {
+    "image": "https://i.ibb.co/5sjc8ky/sutter.png",
+    "title": "Shutter Academy",
+    "description": "This project is built using popular JavaScript technologies such as React, Redux, and Tailwind CSS, and it interacts with the GitHub API to fetch a user's profile details, followers, following, and repositories. The application presents the fetched data in an intuitive and visually appealing user interface.The GitHub profile information, including the user's profile picture, username and other relevant details, is displayed prominently using a profile card component. The user's followers, following, and repositories are also displayed in separate cards, providing a summary of the corresponding data, such as counts and relevant details.",
+    "github": "https://github.com/mdnishath/shutter-academy",
+    "livepreview": "https://sutter-academy.web.app/",
+    "id": 1,
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Firebase",
+      "React Query",
+      "framer-motion",
+      "react-hot-toast"
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/B3pnJC5/toy.png",
+    "title": "Car Galaxy",
+    "description": "This is the description for Project 2.",
+    "github": "https://github.com/mdnishath/toy-marketplace",
+    "livepreview": "https://car-galaxy-6f0e2.web.app/",
+    "id": 2,
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Firebase",
+      "React Query",
+      "framer-motion",
+      "react-hot-toast"
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/RY2DWWt/Screenshot.png",
+    "title": "Chef Recipe Hunter",
+    "description": "This is the description for Project 3.",
+    "github": "https://github.com/mdnishath/chef-recipe",
+    "livepreview": "https://chef-recipe-hunter-39eee.web.app/",
+    "id": 3,
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Firebase",
+      "React Query",
+      "framer-motion",
+      "react-hot-toast"
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/5sjc8ky/sutter.png",
+    "title": "Shutter Academy",
+    "description": "This project is built using popular JavaScript technologies such as React, Redux, and Tailwind CSS, and it interacts with the GitHub API to fetch a user's profile details, followers, following, and repositories. The application presents the fetched data in an intuitive and visually appealing user interface.The GitHub profile information, including the user's profile picture, username and other relevant details, is displayed prominently using a profile card component. The user's followers, following, and repositories are also displayed in separate cards, providing a summary of the corresponding data, such as counts and relevant details.",
+    "github": "https://github.com/mdnishath/shutter-academy",
+    "livepreview": "https://sutter-academy.web.app/",
+    "id": 4,
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Firebase",
+      "React Query",
+      "framer-motion",
+      "react-hot-toast"
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.object-center {
+  object-position: 50% 50%;
+}
+
+.scroll-wrapper {
+  height: 100vh;
+  overflow-y: scroll;
+}
+/* .swiper { */
+/* width: 240px; */
+/* height: 320px; */
+/* } */
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1e293b;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2ff093;
+  /* background: transparent; */
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2ff093;
+  /* background: transparent; */
+}
+/* .swiper { */
+/* width: 240px; */
+/* height: 320px; */
+/* } */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.scrolbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.scrolbar::-webkit-scrollbar-thumb {
+  /* background: #2ff093; */
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.scrolbar::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
