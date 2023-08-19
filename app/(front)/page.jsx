@@ -21,9 +21,8 @@ export const metadata = {
 export default async function Home() {
   return (
     <>
-      <Head>
-        <AboutMeStructuredData />
-      </Head>
+      <AboutMeStructuredData />
+
       {/* Hero Section Start */}
       <section className="px-4">
         <Container>
