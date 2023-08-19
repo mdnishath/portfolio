@@ -9,6 +9,7 @@ import Reviews from "@/components/Reviews";
 import Type from "@/components/shared/Type";
 import Projects from "@/components/Projects";
 import Button from "@/components/shared/Button";
+import Link from "next/link";
 export const metadata = {
   title: "Experienced MERN Stack Developer | Building Dynamic Web Solutions",
   description:
@@ -61,7 +62,16 @@ export default async function Home() {
                   <SocialProfile />
                 </div>
                 <div className="flex justify-center mt-5">
-                  <Button align={"justify-center"}>Hire Me !</Button>
+                  <Link
+                    className="inline-block px-8 py-2 mx-auto font-bold rounded-lg bg-primary text-slate-900"
+                    href={
+                      "https://api.whatsapp.com/send?phone=8801767591988&text=Hello"
+                    }
+                    target="_blanck"
+                    align={"justify-center"}
+                  >
+                    Hire Me !
+                  </Link>
                 </div>
               </div>
             </div>
