@@ -1,29 +1,29 @@
 "use client";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { sendContactForm } from "@/app/api/contact/contact";
+// import { sendContactForm } from "@/app/api/contact/contact";
 import toast from "react-hot-toast";
 import BeatLoader from "react-spinners/BeatLoader";
 
 const ContactForm = () => {
-  const [loading, setLoading] = useState(false);
-  const {
-    register,
-    handleSubmit,
-    watch,
-    reset,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = async (data) => {
-    setLoading(true);
-    const res = await sendContactForm(data);
-    console.log(res);
-    if (res.success) {
-      toast.success("Email Sent");
-      reset();
-      setLoading(false);
-    }
-  };
+  // const [loading, setLoading] = useState(false);
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   watch,
+  //   reset,
+  //   formState: { errors },
+  // } = useForm();
+  // const onSubmit = async (data) => {
+  //   setLoading(true);
+  //   const res = await sendContactForm(data);
+  //   console.log(res);
+  //   if (res.success) {
+  //     toast.success("Email Sent");
+  //     reset();
+  //     setLoading(false);
+  //   }
+  // };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="grid gap-3 md:grid-cols-2">
