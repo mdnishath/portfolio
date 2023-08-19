@@ -10,6 +10,8 @@ import Type from "@/components/shared/Type";
 import Projects from "@/components/Projects";
 import Button from "@/components/shared/Button";
 import Link from "next/link";
+import Head from "next/head";
+import AboutMeStructuredData from "@/components/AboutMeStructuredData ";
 export const metadata = {
   title: "Experienced MERN Stack Developer | Building Dynamic Web Solutions",
   description:
@@ -19,6 +21,9 @@ export const metadata = {
 export default async function Home() {
   return (
     <>
+      <Head>
+        <AboutMeStructuredData />
+      </Head>
       {/* Hero Section Start */}
       <section className="px-4">
         <Container>

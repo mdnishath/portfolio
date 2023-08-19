@@ -1,7 +1,6 @@
 "use client";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/shared/Footer";
-import React from "react";
 
 const FrontLayout = ({ children }) => {
   return (

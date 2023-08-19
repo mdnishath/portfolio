@@ -1,4 +1,5 @@
 import { MenuProvider } from "@/context/MenuContext";
+import Head from "next/head";
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
 import { Toaster } from "react-hot-toast";
