@@ -47,22 +47,37 @@ const Navigation = () => {
         </button>
         <ul className="flex flex-col space-y-3 text-xl font-light text-center text-white">
           <li className="duration-300 hover:text-primary">
-            <Link href={"/"}>Home</Link>
+            <Link onClick={() => toggle(false)} href={"/"}>
+              Home
+            </Link>
           </li>
           <li className="duration-300 hover:text-primary">
-            <Link href={"/about"}>About</Link>
+            <Link onClick={() => toggle(false)} href={"/about"}>
+              About
+            </Link>
           </li>
           <li className="duration-300 hover:text-primary">
-            <Link href={"/projects"}>Projects</Link>
+            <Link onClick={() => toggle(false)} href={"/projects"}>
+              Projects
+            </Link>
           </li>
           <li className="duration-300 hover:text-primary">
-            <Link href={"/skills"}>Skills</Link>
+            <Link onClick={() => toggle(false)} href={"/skills"}>
+              Skills
+            </Link>
           </li>
           <li className="duration-300 hover:text-primary">
-            <Link href={"/google-autocomplete-pro"}>Google Autocomplete</Link>
+            <Link
+              onClick={() => toggle(false)}
+              href={"/google-autocomplete-pro"}
+            >
+              Google Autocomplete
+            </Link>
           </li>
           <li className="duration-300 hover:text-primary">
-            <Link href={"/contact"}>Contact</Link>
+            <Link onClick={() => toggle(false)} href={"/contact"}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
