@@ -17,7 +17,7 @@ const ContactForm = () => {
   const onSubmit = async (data) => {
     setLoading(true);
     const res = await sendContactForm(data);
-    console.log(res);
+
     if (res.success) {
       toast.success("Email Sent");
       reset();

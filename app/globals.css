@@ -9,10 +9,6 @@
   height: 100vh;
   overflow-y: scroll;
 }
-/* .swiper { */
-/* width: 240px; */
-/* height: 320px; */
-/* } */
 
 .swiper-slide {
   display: flex;

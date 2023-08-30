@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function POST(request) {
   const data = await request.json();
-  console.log(data);
+
   const textTemplate = Object.entries(data).reduce((template, [key, value]) => {
     return template + `${key}: ${value}\n`;
   }, "");
@@ -45,8 +45,6 @@ export async function POST(request) {
       // meaasge: data.message,
     });
     return NextResponse.json({ success: true }, { status: 200 });
-  } catch (error) {
-    console.log(error);
-  }
+  } catch (error) {}
   return NextResponse.json({ message: "Bad Request" }, { status: 500 });
 }

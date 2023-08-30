@@ -1,5 +1,4 @@
 import { MenuProvider } from "@/context/MenuContext";
-import Head from "next/head";
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
 import { Toaster } from "react-hot-toast";
@@ -11,6 +10,7 @@ export const metadata = {
 
 const roboto = Open_Sans({
   subsets: ["latin"],
+  display: "swap",
   weight: ["300", "400", "500", "600", "700", "800"],
 });
 

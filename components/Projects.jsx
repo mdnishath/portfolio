@@ -8,7 +8,6 @@ import { getAllProjects } from "@/lib/projects/projects";
 const Projects = async () => {
   const projects = await getAllProjects();
   const data = projects?.nodes;
-  // console.log(data);
 
   return (
     <section className="px-4">

@@ -6,7 +6,6 @@ const Skills = async () => {
   const data = await getAllSkills();
   const skills = data?.nodes;
 
-  console.log(skills);
   const tools = skills?.filter((tool) => tool.terms.nodes[0].slug === "tools");
   const languages = skills?.filter(
     (tool) => tool?.terms?.nodes[0].slug === "languages"

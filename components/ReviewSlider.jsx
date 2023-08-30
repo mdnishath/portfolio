@@ -6,7 +6,6 @@ import { EffectCards } from "swiper/modules";
 import Image from "next/image";
 
 const ReviewSlider = ({ reviews }) => {
-  console.log(reviews);
   return (
     <Swiper
       effect={"cards"}

@@ -1,17 +1,15 @@
 import Image from "next/image";
-import profile from "@/assets/profile.png";
 import SocialProfile from "@/components/shared/SocialProfile";
 import Container from "@/components/shared/Container";
 import developer from "@/assets/developer.svg";
-import hero from "@/assets/hero.svg";
 import Skills from "@/components/Skills";
 import Reviews from "@/components/Reviews";
 import Type from "@/components/shared/Type";
 import Projects from "@/components/Projects";
-import Button from "@/components/shared/Button";
 import Link from "next/link";
-import Head from "next/head";
-import AboutMeStructuredData from "@/components/AboutMeStructuredData ";
+import ProfileImage from "@/components/ProfileImage";
+
+// import AboutMeStructuredData from "@/components/AboutMeStructuredData ";
 export const metadata = {
   title: "Experienced MERN Stack Developer | Building Dynamic Web Solutions",
   description:
@@ -21,7 +19,7 @@ export const metadata = {
 export default async function Home() {
   return (
     <>
-      <AboutMeStructuredData />
+      {/* <AboutMeStructuredData /> */}
 
       {/* Hero Section Start */}
       <section className="px-4">
@@ -32,11 +30,7 @@ export default async function Home() {
                 <p className="text-xl font-bold text-center text-white md:text-2xl">
                   Md Nishath Khandakar
                 </p>
-                <Image
-                  className="md:w-[200px] w-[180px] rounded-full border-[1px] border-slate-600 mx-auto mt-4"
-                  src={profile}
-                  alt="Profile"
-                />
+                <ProfileImage />
                 <h1 className="flex justify-center mt-4 text-xl text-white md:text-lg">
                   <Type
                     text={[
